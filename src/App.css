@@ -1,16 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap');
+
+body {
+  background-color: rgb(199, 168, 128);
+}
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  background-color: rgb(199, 168, 128);
 }
 
 .App-header {
@@ -28,11 +23,62 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Container {
+  position: relative;
+  min-height: 300px;
+  max-height: 800px;
+  overflow: hidden;
+  margin-bottom: 500px;
+  background-color: tan;
 }
+
+/* Style the video: 100% width and height to cover the entire window */
+.Video {
+  width: 100%;
+  height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.Content {
+  position: absolute;
+  top: 0;
+  color:#f1f1f1;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+.SubContent {
+    text-align: center;
+    padding: 10px;
+  }
+.SubContent p {
+    color: #eeeeeead;
+    font-size: 1.3rem;
+}
+.SubContent button {
+    font-weight: bold;
+    margin-top: 30px;
+    color: #f1f1f1;
+    border: #f1f1f1 1px solid;
+    padding: 10px 5px;
+    background-color: hsla(0, 0%, 0%, 0);
+    font-size: 1.25rem;
+    border-radius: 5px;
+}
+.SubContent button:hover {
+    background-color: #f1f1f1;
+    color: #000000c0;
+}
+
+/* .SubContent img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 15px auto;
+  border: #f1f1f1 1px solid;
+} */
