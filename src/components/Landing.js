@@ -18,22 +18,7 @@ const LandingPage = () => {
     const videoSource = InkVideo;
     return (
     <div className={classes.Container}>
-            <video autoPlay="autoplay" loop="loop" muted className={classes.Video} >
-                <source src={videoSource} type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
-
-            <div className={classes.Header}>
-            <div className={classes.Logo}>
-                <img src={Logo} alt="logo" />
-            </div>
-            <Navbar />
-            </div>
-
-
-<div class="block" className={classes.Block}>
-        <div className={classes.Content}>
-        <BrowserRouter>
+         <BrowserRouter>
             <Switch>
             <Route exact path="/Contact" component={ Contact }>
                 <Contact />
@@ -49,8 +34,20 @@ const LandingPage = () => {
             </Route>
             </Switch>
         </BrowserRouter>
+
+            <video autoPlay="autoplay" loop="loop" muted className={classes.Video} >
+                <source src={videoSource} type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+
+            <div className={classes.Header}>
+            <div className={classes.Logo}>
+                <img src={Logo} alt="logo" />
             </div>
-        </div>
+            <Navbar />
+            <div class="block" className={classes.Block} />
+            </div>
+    
     </div>
     )
 }

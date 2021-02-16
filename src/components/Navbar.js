@@ -1,11 +1,6 @@
 import React, {useState} from "react";
 import { NavLink } from "react-router-dom";
-import classes from "./BackgroundVideo.module.css";
-
-// import Contact from './Contact';
-// import Home from './Home';
-// import Portfolio from './Portfolio';
-// import About from './About';
+import classes from "./BackgroundVideo.module.css"
 
 const Navbar = () => {
     const [isOpen, setOpen] = useState(false);
