@@ -41,11 +41,10 @@
   }
 
   .Logo {
-    position: fixed;
+    position: absolute;
     top: 20px;
     justify-content: center;
     width: 100%;
-    height: 100%;
   }
 
   .Block {
@@ -54,7 +53,7 @@
     position: fixed;
     padding: 2em;
     left: 50%;
-    top: 70%;
+    top: 80%;
     transform: translate(-50%, -50%);
     width: 90%;
     height: 800px;

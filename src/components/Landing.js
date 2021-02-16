@@ -1,7 +1,8 @@
 import React from 'react';
 import classes from './BackgroundVideo.module.css';
 import InkVideo from './InkVideo.mp4';
-import HandwrittenLogo from './HandwrittenSize1.png';
+// import HandwrittenLogo from './HandwrittenSize1.png';
+import Logo from './Logo.svg';
 import { BrowserRouter,
     Switch, Route
 } from 'react-router-dom';
@@ -24,7 +25,7 @@ const LandingPage = () => {
 
             <div className={classes.Header}>
             <div className={classes.Logo}>
-                <img src={HandwrittenLogo} alt="logo" />
+                <img src={Logo} alt="logo" />
             </div>
             <Navbar />
             </div>
