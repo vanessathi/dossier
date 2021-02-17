@@ -24,6 +24,7 @@ const Navbar = () => {
             </div>
             <div className = {classes.Navigation}>
                 <div class={`navbar-menu ${isOpen && "is-active"}`}>
+
                         <NavLink className="navbar-item" activeClassName="is-active"to="/Home">
                             H O M E 
                         </NavLink>

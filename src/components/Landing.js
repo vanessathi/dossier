@@ -1,7 +1,6 @@
 import React from 'react';
 import classes from './BackgroundVideo.module.css';
 import InkVideo from './InkVideo.mp4';
-import Fedlogo from './Fedlogo.svg';
 import BlueLogo from './BlueLogo.svg';
 import { BrowserRouter,
     Switch, Route, Link

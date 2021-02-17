@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap');
 
 body {
-  background-color: rgb(199, 168, 128);
+  background-color: #ede0d8;
 }
 .App {
   text-align: center;
-  background-color: rgb(199, 168, 128);
+  background-color:#ede0d8;
 }
 
 .App-header {

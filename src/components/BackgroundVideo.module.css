@@ -106,7 +106,7 @@ justify-content: center;
   }
 
   .Block {
-    border-top: thin double rgba(187, 94, 28, 0.562);
+    border-top: thin double #ede0d8;
     background: none;
     position: fixed;
     padding: 2em;
@@ -120,15 +120,6 @@ justify-content: center;
     font-family: 'Barlow Condensed', sans-serif;
   }
 
-  /* Add some content at the bottom of the video/page */
-  /* .Content {
-    position: fixed;
-    width: 90%;
-    height: auto;
-    display: flex;
-    background-color: transparent;
-    justify-content: center;
-    } */
 
 .Content {
   position: fixed;

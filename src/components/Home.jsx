@@ -1,13 +1,19 @@
 import React, { Component } from 'react';
-import classes from './BackgroundVideo.module.css';
-import LandingPage from './Landing';
+import classes from './Home.module.css';
+import HeroOne from './HeroOneTrans.svg';
+import NavBar from './Navbar';
+import HeroBg from './HeroOneBg.svg';
+
 
 class Home extends Component {
     render() {
         return (
-            <div className={classes.Container}>
-                <LandingPage />
-                
+            <div>
+            <section class="hero is-large" className={classes.HeroOne}>
+                <div class="hero-body">
+                    <img src={HeroOne} alt='heroone' />
+                </div>
+            </section>
             </div>
         )
     }

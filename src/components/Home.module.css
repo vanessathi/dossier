@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+.HeroOne {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    background: #ede0d8;
+    background-image: url("./HeroOneBg.svg");
+}
+
+.HeroOne img {
+    background-image: url("./HeroOneBg.svg");
+    position: fixed;
+    width: 100%;
+    display: flex;
+    padding: 0;
+    left: 0px;
+    top: 0px;
+}
