@@ -20,7 +20,7 @@ body {
 }
 
 .App-link {
-  color: #61dafb;
+  color: #ede0d8;
 }
 
 .Container {
@@ -68,10 +68,6 @@ body {
     background-color: hsla(0, 0%, 0%, 0);
     font-size: 1.25rem;
     border-radius: 5px;
-}
-.SubContent button:hover {
-    background-color: #f1f1f1;
-    color: #000000c0;
 }
 
 /* .SubContent img {

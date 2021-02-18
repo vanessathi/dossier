@@ -1,16 +1,22 @@
 import React, {useState} from "react";
 import { NavLink } from "react-router-dom";
-import classes from "./BackgroundVideo.module.css"
+import classes from "./Home.module.css";
+import "./Nav.css";
+import PlainLogo from "./LogoNew.svg";
 
 const Navbar = () => {
     const [isOpen, setOpen] = useState(false);
     return (
-        <nav class="navbar" className={classes.navbar}
+        <nav class="navbar" className={classes.Navigation}
         role="navigation"
         aria-label="main navigation"
         >
-       
-        <div class="navbar-burger" className={classes.Burger}>
+        <div class="navbar-brand">
+            <NavLink class="navbar-item" to="/">
+                <img src={PlainLogo} alt="landing" />
+            </NavLink>
+        </div>
+        <div class="navbar-burger is-right">
                 <button className={`navbar-burger burger ${isOpen && "is-active"}`}
                 aria-label="menu"
                 aria-expanded="false"
@@ -20,9 +26,7 @@ const Navbar = () => {
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                 </button>
-        
             </div>
-            <div className = {classes.Navigation}>
                 <div class={`navbar-menu ${isOpen && "is-active"}`}>
 
                         <NavLink className="navbar-item" activeClassName="is-active"to="/Home">
@@ -38,7 +42,6 @@ const Navbar = () => {
                             C O N T A C T 
                         </NavLink>
                 </div>  
-            </div>  
         </nav>              
     );
 };

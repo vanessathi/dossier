@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
-
+/* 
 @media screen and (max-width: 1023px) {
   .navbar {
     display: flex;
@@ -18,16 +18,14 @@
   }
 }
 
-
 .Navigation {
   opacity: 1.0; 
-  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   position: fixed;
   justify-content: center;
   display: flex;
-  background-color: transparent;
+  background-color: #6d615d;
   background:hsla(0, 0%, 0%, 0);
   text-align: center;
   font-family: 'Barlow Condensed', sans-serif;
@@ -65,23 +63,8 @@ color:#413f3f;
 text-decoration: none;
 text-align: center;
 justify-content: center;
-}
+} */
 
-.LogoVideo {
-  position: fixed;
-  top: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-}
-
-.is-active{
-  position: fixed;
-  top: 0px;
-  right: 0px;
-
-}
 /* Style the video: 100% width and height to cover the entire window */
 .Container .Video {
     /* sets rules to fill background */
