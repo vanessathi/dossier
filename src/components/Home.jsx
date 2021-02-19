@@ -13,7 +13,7 @@ class Home extends Component {
             <div class="hero">
             <section class="hero is-large" className={classes.HeroOne}>
                 <div class="hero-body">
-                    <img src={HeroOne} alt='heroone' />
+                    <img src={HeroOne} draggable="false" alt='heroone' />
                 </div>
             </section>
             </div>

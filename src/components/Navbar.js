@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import classes from "./Home.module.css";
 import "./Nav.css";
 import PlainLogo from "./LogoNew.svg";
+import Menu from "./MenuPic.svg";
 
 const Navbar = () => {
     const [isOpen, setOpen] = useState(false);
@@ -11,11 +12,13 @@ const Navbar = () => {
         role="navigation"
         aria-label="main navigation"
         >
-        <div class="navbar-brand">
-            <NavLink class="navbar-item" to="/">
-                <img src={PlainLogo} alt="landing" />
-            </NavLink>
-        </div>
+
+<div class="navbar-item is-active">
+                    <NavLink class="navbar-item" to="/">
+                    <img src={PlainLogo} alt="landing" />
+                    </NavLink>
+                     </div>
+        
         <div class="navbar-burger is-right">
                 <button className={`navbar-burger burger ${isOpen && "is-active"}`}
                 aria-label="menu"
@@ -27,6 +30,8 @@ const Navbar = () => {
                     <span aria-hidden="true"></span>
                 </button>
             </div>
+            <div class="navbar-brand">
+        </div>
                 <div class={`navbar-menu ${isOpen && "is-active"}`}>
 
                         <NavLink className="navbar-item" activeClassName="is-active"to="/Home">
