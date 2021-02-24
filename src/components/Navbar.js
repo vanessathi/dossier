@@ -3,7 +3,6 @@ import { NavLink } from "react-router-dom";
 import classes from "./Home.module.css";
 import "./Nav.css";
 import PlainLogo from "./LogoNew.svg";
-import Menu from "./MenuPic.svg";
 
 const Navbar = () => {
     const [isOpen, setOpen] = useState(false);

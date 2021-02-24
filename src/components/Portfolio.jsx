@@ -1,5 +1,8 @@
 import React from 'react';
 import Navbar from './Navbar';
+import classes from './Portfolio.module.css';
+import Header from './PortfolioHeader.svg';
+
 
 
 const Portfolio = () => {
@@ -9,9 +12,9 @@ const Portfolio = () => {
         <Navbar />
 
         <div class="hero">
-        <section class="hero is-large">
+        <section class="hero is-large" className={classes.Pheader}>
             <div class="hero-body">
-                {/* <img src={HeroOne} draggable="false" alt='heroone' /> */}
+                <img src={Header} draggable="false" alt='pheader' />
             </div>
         </section>
         </div>
