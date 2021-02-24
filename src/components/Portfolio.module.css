@@ -29,3 +29,10 @@
     top: 0px;
 }
 
+.Psection {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    background: #ede0d8;
+    padding: 10px;
+}
