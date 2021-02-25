@@ -23,11 +23,8 @@ const Portfolio = () => {
         <div>
         <section class="section is-medium" className={classes.Psection}>
             <hr className={classes.Line1} />
-        </section>
-        </div>
-        <div>
-        <section class="section is-medium" className={classes.Psection}>
-            <hr />
+            <p>"The world always seems brighter when you've just made something that wasn't there before."</p>
+            <p>- Neil Gaiman</p>
         </section>
         </div>
 
