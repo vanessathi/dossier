@@ -25,6 +25,11 @@ const Portfolio = () => {
             <hr className={classes.Line1} />
         </section>
         </div>
+        <div>
+        <section class="section is-medium" className={classes.Psection}>
+            <hr />
+        </section>
+        </div>
 
         </div>
     );
