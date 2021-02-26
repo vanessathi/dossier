@@ -27,6 +27,9 @@ const Portfolio = () => {
             <p>- Neil Gaiman</p>
         </section>
         </div>
+        <div>
+            This is where I'll add my projects.
+        </div>
 
         </div>
     );
