@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 import classes from './BackgroundVideo.module.css';
-import LandingPage from './Landing';
+import Navbar from './Navbar';
 
 class Contact extends Component {
     render() {
         return (
+            <div>
+            <Navbar />
             <div className={classes.Content}>
-            <LandingPage />
+            This is the contact page.
+            </div>
             </div>
         )
     }
