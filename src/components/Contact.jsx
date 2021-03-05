@@ -16,6 +16,9 @@ class Contact extends Component {
             <div>
                 Insert footer here.
             </div>
+            <div>
+                Made visual components...
+            </div>
             </div>
         )
     }
