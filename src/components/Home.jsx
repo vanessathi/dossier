@@ -17,7 +17,10 @@ class Home extends Component {
                 </div>
             </section>
             </div>
-
+            <div>
+                Mini about me:
+                
+            </div>
             </div>
         )
     }
